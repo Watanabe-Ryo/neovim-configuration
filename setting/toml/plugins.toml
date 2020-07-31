@@ -1,0 +1,30 @@
+[[plugins]]
+# vim filer plugin
+repo = 'Shougo/denite.nvim'
+
+[[plugins]]
+# github control plugin
+repo = 'tpope/vim-fugitive'
+
+[[plugins]]
+# auto complete
+repo = 'Shougo/deoplete.nvim'
+hook_add = '''
+    let g:deoplete#enable_at_startup=1
+'''
+
+[[plugins]]
+# syntax and indent pluugin
+repo = 'sheerun/vim-polyglot'
+
+[[plugins]]
+# PHP autocomp
+repo = 'lvht/phpcd.vim'
+
+[[plugins]]
+# PHP autocomp
+repo = 'junegunn/fzf.vim'
+
+[[plugins]]
+# PHP autocomp
+repo = 'kien/ctrlp.vim'

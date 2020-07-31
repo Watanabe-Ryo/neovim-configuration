@@ -1,0 +1,47 @@
+[[plugins]]
+# vim python autocomplete plugin
+repo = 'davidhalter/jedi-vim'
+on_ft = 'python'
+
+[[plugins]]
+# quick run code with no exit vim.
+repo = 'thinca/vim-quickrun'
+
+[[plugins]]
+# vim tree file viewer plugin
+repo = 'preservim/nerdtree'
+hook_add = '''
+    let NERDTreeShowHidden=1
+    let g:nerdtree_tabs_open_on_console_startup=1
+    let g:NERDTreeShowBookmarks=1
+'''
+
+[[plugins]]
+# nerdtree sync in each tabs.
+repo = 'jistr/vim-nerdtree-tabs'
+hook_add = '''
+    let NERDTreeShowLineNumbers=1
+'''
+
+[[plugins]]
+# complete for look command.
+repo = 'ujihisa/neco-look'
+
+[[plugins]]
+# complete for jedi python.
+repo = 'deoplete-plugins/deoplete-jedi'
+
+[[plugins]]
+# show git status in nerdtree.
+repo = 'Xuyuanp/nerdtree-git-plugin'
+
+[[plugins]]
+# terminal emualtor
+repo = 'kassio/neoterm'
+hook_add = '''
+    let &runtimepath.=',~/.config/nvim/dein/repos/github.com/kassio/neoterm'
+    let g:neoterm_default_mod='botright'
+    let g:neoterm_size=10
+    let g:neoterm_autoscroll=1
+'''
+
